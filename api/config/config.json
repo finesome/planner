@@ -1,0 +1,28 @@
+{
+    "clientUrl": "https://esabak.kz",
+    "port": 8080,
+    "mongoose": {
+        "uri": "mongodb://localhost:27017/planner",
+        "options": {
+            "autoIndex": false,
+            "useNewUrlParser": true,
+            "user": "",
+            "pass": ""
+        }
+    },
+    "jwt": {
+        "tokenLifetimeInHours": 12,
+        "secret": "rbP3eFJ8cgWqKF6yKkT656mZw7bZBunbjsZfKpUFDEAHewWgSKGeEHsKCnXPSgE3"
+    },
+    "bcrypt": {
+        "saltRounds": 10
+    },
+    "mailer": {
+        "baseUrl": "https://esabak.kz",
+        "service": "Yandex",
+        "auth": {
+            "user": "planurokaonline@yandex.kz",
+            "pass": "Happiness2019$"
+        }
+    }
+}

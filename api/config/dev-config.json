@@ -1,0 +1,28 @@
+{
+    "clientUrl": "http://localhost:3000",
+    "port": 8080,
+    "mongoose": {
+        "uri": "mongodb://localhost:27017/planner",
+        "options": {
+            "autoIndex": false,
+            "useNewUrlParser": true,
+            "user": "",
+            "pass": ""
+        }
+    },
+    "jwt": {
+        "tokenLifetimeInHours": 12,
+        "secret": "OGX6oUbeINjRQrg1nWyZ3kr2AEZRyxReGVnigdyOB6SgCOzalxn9rAjZ2xjFUTkp"
+    },
+    "bcrypt": {
+        "saltRounds": 10
+    },
+    "mailer": {
+        "baseUrl": "http://localhost:8080",
+        "service": "Yandex",
+        "auth": {
+            "user": "planurokaonline@yandex.kz",
+            "pass": "Happiness2019$"
+        }
+    }
+}
